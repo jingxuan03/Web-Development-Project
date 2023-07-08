@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("D:\XAMPP\htdocs\public_html\img\moviecover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+form{
+    width: 450px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    text-align: center;
+    box-shadow: 0px 5px 19px 0 black, 0 5px 19px 0 black;
+}
+
+form a{
+    text-align: left;
+}
+
+form h1 {
+    color: white;
+    text-transform: uppercase;
+    background: black;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form input[type='text'], form input[type='password'], form input[type='email'], form input[type='tel'] 
+{
+    border: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid #6759ff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+form input[type='submit'] {
+    background: none;
+    display: block;
+    margin: 45px auto 20px auto;
+    text-align: center;
+    border: 2px solid #6759ff;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form input[type='submit']:hover {
+    background-color: 6759ff;
+}
+
+form span {
+    color: white;
+    text-align: center;
+    background: black;
+}
+
+
+form a {
+    color: #6759ff;
+    text-transform: none;
+    background: black;
+    font-size: 16px;
+}

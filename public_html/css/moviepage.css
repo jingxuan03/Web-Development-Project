@@ -1,0 +1,40 @@
+*{
+    color: white;
+}
+
+body {
+  background-color: black;
+} 
+
+p, title, div#movie, div#showtimes 
+{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.movie, div.showtimes, html {
+    background-color: black;
+}
+
+div.image {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 350px;
+    background-color: grey;
+}
+.caption {
+    display: block;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+  margin: 0;  /* Remove margin */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove border */
+  height: 0; /* Set height to 0 to remove the visible line */
+}
