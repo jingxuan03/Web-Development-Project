@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    padding-top: 10px;
+}
+
+form input[type='submit'] {
+    background-color: #6759ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+
+body{
+    background-color: black;
+}
+
+hr{
+    color:white;
+}
